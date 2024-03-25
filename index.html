@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Módulo 1 - Primeiros Passos com HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+        <hr>
+
+        <nav>
+            <ul id="Menu">
+                <li><a href="#Tags">Atributos das Tags</a></li>
+                <li><a href="#Listas">Listas Ordenadas e Não Ordenadas</a></li>
+                <li><a href="#Links">Links</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <main>
+        <aticle>
+            <h2 id="Tags">Atributos das Tags</h2>
+            <p>
+                Toda tag HTML pode ter Atributos, e o que são atributos? Eles server para prover infomações adicionais para as tags.
+                <br>
+                Algumas Tags precisam de atributo, outras não, a Tag P &lt; p &gt;, não precisa de atributo, já a tag IMG que é o exemplo a baixo precisa...
+                <br> 
+                A tag IMG tem o atributo <i>SRC</i> que é usado para buscar a imagem dentro do projeto.
+                <br>
+                A forma de usar é <strong> &lt; img src="#" &gt; </strong>.
+                <br> <br>
+                <img src="frieren.jpg" alt="Imagem de uma personagem de animação Japonesa">
+                <br> <br>
+                Outro atributo da tag IMG é o atributo ALT.
+                <br>
+                <strong> &lt; img src="####" alt="#####" &gt; </strong> 
+                <br> <br>
+                <img src="friere.jpg" alt="Imagem de uma personagem de animação Japonesa">
+                <br><br>
+                O atributo ALT é utilizado para caso a imagem vier a "quebrar" e sendo necessário colocar uma descrição para a imagem, o navegadores também usam a tag ALT para descrever imagens para usuários com deficiencia visual, onde a ferramenta de descrição usa o ALT para descrever a imagem para o usuário com deficiencia.
+                <br>
+                Existem várias outros Atributos dentro de várias outras Tags, esse são só alguns exemplos...
+                <br>
+                Em resumo algumas tags precisam de atributos, como no caso da tag <strong>IMG</strong> e outras não, como na tag <strong>P</strong>, que os atributos são opcionais.
+
+                <a href="#Menu">Voltar ao menu</a>.
+            </p>
+        </aticle>
+        <article>
+            <h2 id="Listas">Listas Ordenadas e Não Ordenadas</h2>
+            <p>
+                Aqui é bem simples, para fazer uma lista ordenada usa OL(OL significa Orderned List... que passando para o português fica Lista ordenada... <del>Tudo faz sentido</del>) como tag e LI para definir as linhas.
+                <br>
+                &lt; OL &gt;
+                <br>
+                &lt; LI &gt; item &lt; /LI&gt;
+                <br>
+                &lt; /OL &gt;
+                <br>
+                E o exemplo fica assim:
+                <br>
+            </p>
+                <ol>
+                    <li>Frieren e a Jornada para o além</li>
+                    <li>Fullmetal Alchemist Brotherhood</li>
+                    <li>Bocchi the Rock</li>
+                </ol>
+            <p>
+                <sub>Esses são nomes de animações japonesas.. espero que não se importem</sub>
+                <br>
+                E agora para listas não ordenadas usa a tag UL (UL significa Unordered List... que em português significa <sup>aquilo que você já imagina</sup> Lista não Ordenada)
+                <br>
+                &lt; UL &gt;
+                <br>
+                &lt; LI &gt; item &lt; /LI&gt;
+                <br>
+                &lt; /UL &gt;
+                <br>
+            </p>
+            <ul>
+                <li>Fullmetal Alchemist Brotherhood</li>
+                <li>Bocchi the Rock</li>
+                <li>Frieren e a Jornada para o além</li>
+            </ul>
+
+            <br>
+            <a href="#Menu">Voltar ao menu</a>
+        </article>
+        <article>
+            <h2 id="Links">Links</h2>
+            <p>
+                Aqui vamos falar sobre Links...
+                <br>
+                Como já sabemos, toda a internet é uma grande teia de aranha de links levando um lugar ao outro, e para fazer isso usamos a tag de acoragem  <strong>A</strong>.
+                <br>
+                A tag de ancoragem tem o atributo(Não sabe o que é um atributo? Leia o <a href="#Tags">primeiro artigo</a> de pagina e depois volte aqui) <u><strong>HREF</strong></u> sendo o atributo para referencia a um hiper link para outra pagina ou ancora.
+                <br>
+                Como por exemplo : <strong> &lt; a "href=#" &gt; </strong>
+                <br>
+
+                Aqui é um exemplo de Link que leva para o <a href="google.com.br">google</a>.
+
+                <br>
+                <a href="#Menu">Voltar ao menu</a>
+            </p>
+        </article>
+    </main>
+
+    <footer>
+    <h2>Referências</h2>
+        <p>
+            A primeira referência é o maior site sobre html que eu conheco que é a <a href="https://www.w3schools.com"> W3 School </a>.
+            <br>
+            A segunda referência é um site onde usei para pesquisar sobre como colocar caracters especiais na pagina, é o <a href="https://mateam.net/html-escape-characters/">Ma team</a> (ele é em inglês).
+            <br>
+            A terceira referência é o site DIO onde estou fazendo o curso de HTML que é de onde veio a ideia dessa página, então fica aqui os meu agradecimentos... <a href="https://www.dio.me">DIO</a>
+            <br>
+
+            E meu agradecimento a você que esta lendo isso... Muito Obrigado e até a próxima.
+
+            <br>
+            <a href="#Menu">Voltar ao menu</a>
+        </p>
+    </footer>
+</body>
+</html>

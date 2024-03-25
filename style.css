@@ -1,0 +1,29 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+ol {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+ul {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
